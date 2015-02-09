@@ -26,6 +26,12 @@ angular.module('stemStore')
         'url': '/misc',
         'description': 'You\'ll never know what comes in handy.',
         'logo': 'misc.png'
+      },
+      {
+        'title': 'Fun Stuff',
+        'url': '/fun',
+        'description': 'Sometimes you gotta have it..',
+        'logo': 'fun.png'
       }
     ];
   });

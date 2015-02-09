@@ -3,18 +3,17 @@
   <div ng-include="'components/navbar/navbar.html'"></div>
 
   <div style="height: 305px">
-    <carousel interval="myInterval">
-      <slide ng-repeat="slide in awesomeThings" active="slide.active">
-        <img ng-src="{{slide.image}}" style="margin:auto;">
-        <div class="carousel-caption">
-          <h4>Slide {{$index}}</h4>
-          <p>{{slide.text}}</p>
+    <ul rn-carousel rn-carousel-controls rn-carousel-pause-on-hover rn-carousel-transition="fadeAndSlide" rn-carousel-auto-slide class="carousel5">
+      <li ng-repeat="slide in awesomeThings">
+        <div ng-style="{'background-image': 'url(' + slide.image + ')'}"  class="bgimage">
         </div>
-      </slide>
-    </carousel>
+        <div class="rn-carousel-indicator">
+           <span ng-class="{active: $index==index}" ng-click="goToSlide($index)" class="ng-scope">●</span>
+        </div>
+      </li>
+    </ul>
   </div>
 
-  </div>
 
   <hr>
 
