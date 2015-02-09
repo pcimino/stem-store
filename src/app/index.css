@@ -58,3 +58,10 @@ ul[rn-carousel] {
 .custom-indicator span.active {
   color:yellow !important;
 }
+
+.carousel-indicators li {
+  position: relative;
+  top: 50px;
+  border-color: #0a13a0;
+  background-color:#46b8da;
+}
