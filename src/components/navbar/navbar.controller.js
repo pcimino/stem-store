@@ -6,7 +6,8 @@ angular.module('stemStore')
       {description:'Paper and Binders', link:'/paper'},
       {description:'Writing Tools', link:'/writing'},
       {description:'Electronics', link:'/electronics'},
-      {description:'Personal/Misc', link:'/misc'},
+      {description:'Useful Stuff', link:'/misc'},
+      {description:'Fun Stuff', link:'/fun'}
 
     ]
   });

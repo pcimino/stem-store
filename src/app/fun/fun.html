@@ -1,0 +1,27 @@
+<div class="container">
+
+  <div ng-include="'components/navbar/navbar.html'"></div>
+
+  <div style="height: 305px">
+    <carousel interval="myInterval">
+      <slide ng-repeat="slide in awesomeThings" active="slide.active">
+        <img ng-src="{{slide.image}}" style="margin:auto;">
+        <div class="carousel-caption">
+          <h4>Slide {{$index}}</h4>
+          <p>{{slide.text}}</p>
+        </div>
+      </slide>
+    </carousel>
+  </div>
+
+  </div>
+
+  <hr>
+
+  <div class="footer">
+
+  </div>
+
+</div>
+
+</body>

@@ -23,6 +23,10 @@ angular.module('stemStore', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 
         templateUrl: 'app/writing/writing.html',
         controller: 'WritingCtrl'
       })
+      .when('/fun', {
+        templateUrl: 'app/fun/fun.html',
+        controller: 'FunCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
