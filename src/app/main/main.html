@@ -1,0 +1,33 @@
+<div class="container-fluid">
+
+  <div ng-include="'components/navbar/navbar.html'"></div>
+
+  <div class="jumbotron text-center">
+    <h1>Welcome to the STEM Store</h1>
+    <h3>Brought to you by the Home & School Assoc</h3>
+    <p class="lead">
+      <img src="assets/images/yeoman.png"><br>
+    </p>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-3" ng-repeat="awesomeThing in awesomeThings">
+      <a ng-href="#{{awesomeThing.url}}">
+        <div class="thumbnail">
+        <img class="pull-right" ng-src="assets/images/{{awesomeThing.logo}}" alt="{{awesomeThing.title}}">
+        <div class="caption">
+          <h3>{{awesomeThing.title}}</h3>
+          <p>{{awesomeThing.description}}</p>
+        </div>
+      </div>
+      </a>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="footer">
+
+  </div>
+
+</div>
