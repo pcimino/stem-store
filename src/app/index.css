@@ -5,6 +5,10 @@
   padding: 0.2em 0;
 }
 
+.main-logo {
+  width: 400px;
+}
+
 .thumbnail {
   height: 200px;
 }

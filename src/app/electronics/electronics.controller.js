@@ -6,10 +6,7 @@ angular.module('stemStore')
     $scope.awesomeThings = [
 
 {image:'assets/images/electronics/WP_20150208_017.jpg'},
-{image:'assets/images/electronics/earpods.jpg'},
-{image:'assets/images/electronics/pinkearpods.jpg'},
-{image:'assets/images/electronics/skullcandy_blue.jpg'},
-{image:'assets/images/electronics/skullcandy_jamacain.jpg'}
+{image:'assets/images/electronics/WP_20150208_041.jpg'}
     ];
 
   });

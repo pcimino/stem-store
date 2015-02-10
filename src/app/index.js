@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('stemStore', ['ngCookies', 'ngTouch', 'ngSanitize', 'ngResource', 'ngRoute', 'ui.bootstrap', 'angular-carousel'])
+angular.module('stemStore', ['ngCookies', 'ngTouch', 'ngSanitize', 'ngResource', 'ngRoute', 'ui.bootstrap'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {

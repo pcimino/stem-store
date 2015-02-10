@@ -12,7 +12,10 @@ angular.module('stemStore')
 {image:'assets/images/misc/WP_20150208_031.jpg'},
 {image:'assets/images/misc/WP_20150208_036.jpg'},
 {image:'assets/images/misc/WP_20150208_037.jpg'},
-{image:'assets/images/misc/WP_20150208_038.jpg'}
+       {image:'assets/images/misc/WP_20150208_038.jpg'},
+       {image:'assets/images/misc/WP_20150208_042.jpg'},
+       {image:'assets/images/misc/WP_20150209_002.jpg'},
+       {image:'assets/images/misc/WP_20150209_003.jpg'}
     ];
 
   });
