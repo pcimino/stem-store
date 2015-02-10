@@ -9,17 +9,18 @@
       <img src="assets/images/stem-store-logo-small.png"><br>
     </p>
   </div>
-
-  <div class="row row-center">
-    <div class="col-sm-2 " ng-repeat="awesomeThing in awesomeThings">
-      <a ng-href="#{{awesomeThing.url}}">
-        <div class="thumbnail">
-        <img class="pull-right" ng-src="assets/images/{{awesomeThing.logo}}" alt="{{awesomeThing.title}}">
-        <div class="caption">
-          <h6>{{awesomeThing.description}}</h6>
-        </div>
+  <div id="outer" style="width:100%">
+    <div class="row row-center">
+      <div class="col-sm-2" ng-repeat="awesomeThing in awesomeThings">
+          <a ng-href="#{{awesomeThing.url}}">
+            <div class="thumbnail">
+              <img class="pull-right" ng-src="assets/images/{{awesomeThing.logo}}" alt="{{awesomeThing.title}}">
+              <div class="caption">
+                <h6>{{awesomeThing.description}}</h6>
+              </div>
+            </div>
+          </a>
       </div>
-      </a>
     </div>
   </div>
 

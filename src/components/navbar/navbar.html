@@ -1,7 +1,5 @@
-<nav class="navbar navbar-static-top navbar-inverse" ng-controller="NavbarCtrl">
+<!-- <nav class="navbar navbar-static-top navbar-inverse" ng-controller="NavbarCtrl">
   <div class="container-fluid">
-
-
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
       <ul class="nav navbar-nav">
         <li ng-repeat="linkItem in links">
@@ -11,3 +9,27 @@
     </div>
   </div>
 </nav>
+-->
+<div class="bs-example">
+  <nav id="myNavbar" class="navbar navbar-default" role="navigation"  ng-controller="NavbarCtrl">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">STEM Store</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li ng-repeat="linkItem in links">
+            <a ng-class="{ active: isActive('{{linkItem.link}}') }" ng-href="#{{linkItem.link}}">{{linkItem.description}}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>

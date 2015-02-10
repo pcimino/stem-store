@@ -9,6 +9,5 @@ angular.module('stemStore')
       {description:'Electronics', link:'/electronics'},
       {description:'Useful Stuff', link:'/misc'},
       {description:'Fun Stuff', link:'/fun'}
-
-    ]
+    ];
   });
