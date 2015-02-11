@@ -22,9 +22,11 @@
 .email-text {
   position: relative;
   left: 20px;
-
 }
 
+.navbar-toggle {
+  float:left!important;
+}
 .main-logo {
   width: 400px;
 }
@@ -35,6 +37,15 @@
 
 .thumbnail img.pull-right {
   width: 150px;
+}
+
+.nav img {
+  width: 155px!important;
+  height: auto;
+}
+
+.navbar-header a {
+  margin-top:-15px!important;
 }
 
 /* centered columns styles */
