@@ -5,6 +5,21 @@
   padding: 0.2em 0;
 }
 
+.navy {
+  color: #00053D;
+}
+
+.welcome-text {
+  font-size: 300%;
+}
+
+.welcome-sub-text {
+  font-size: 118%;
+  position: relative;
+  left: 20px;
+
+}
+
 .main-logo {
   width: 400px;
 }

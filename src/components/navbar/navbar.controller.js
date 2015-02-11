@@ -3,11 +3,9 @@
 angular.module('stemStore')
   .controller('NavbarCtrl', function ($scope) {
     $scope.links = [
-      {description:'Store Window', link:'/'},
-      {description:'Paper and Binders', link:'/paper'},
-      {description:'Writing Tools', link:'/writing'},
-      {description:'Electronics', link:'/electronics'},
-      {description:'Useful Stuff', link:'/misc'},
-      {description:'Fun Stuff', link:'/fun'}
+      {description:'Supplies', link:'/supplies', image:'supplies-small.png'},
+      {description:'Tech Stuff', link:'/tech-stuff', image:'tech-stuff-small.png'},
+      {description:'Seasonal Fun', link:'/seasonal-fun', image:'fun-stuff-small.png'},
+      {description:'Gotta Have', link:'/gotta-have', image:'gotta-have-small.png'}
     ];
   });

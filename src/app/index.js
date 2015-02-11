@@ -7,25 +7,21 @@ angular.module('stemStore', ['ngCookies', 'ngTouch', 'ngSanitize', 'ngResource',
         templateUrl: 'app/main/main.html',
         controller: 'MainCtrl'
       })
-      .when('/paper', {
+      .when('/supplies', {
         templateUrl: 'app/paper/paper.html',
         controller: 'PaperCtrl'
       })
-      .when('/electronics', {
+      .when('/tech-stuff', {
         templateUrl: 'app/electronics/electronics.html',
         controller: 'ElectronicsCtrl'
       })
-      .when('/misc', {
-        templateUrl: 'app/misc/misc.html',
-        controller: 'MiscCtrl'
-      })
-      .when('/writing', {
-        templateUrl: 'app/writing/writing.html',
-        controller: 'WritingCtrl'
-      })
-      .when('/fun', {
+      .when('/seasonal-fun', {
         templateUrl: 'app/fun/fun.html',
         controller: 'FunCtrl'
+      })
+      .when('/gotta-have', {
+        templateUrl: 'app/misc/misc.html',
+        controller: 'MiscCtrl'
       })
       .otherwise({
         redirectTo: '/'

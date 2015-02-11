@@ -17,6 +17,6 @@ describe('controllers', function(){
     });
 
     expect(angular.isArray(scope.awesomeThings)).toBeTruthy();
-    expect(scope.awesomeThings.length > 3).toBeTruthy();
+    expect(scope.awesomeThings.length > 0).toBeTruthy();
   }));
 });

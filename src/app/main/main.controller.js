@@ -4,34 +4,32 @@ angular.module('stemStore')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       {
-        'title': 'Paper, Folders & Binders',
-        'url': '/paper',
-        'description': 'Paper, different kinds',
-        'logo': 'paper.png'
+        'title': 'Supplies',
+        'url': '/supplies',
+        'description': 'Everything from notebooks to rulers.',
+        'logo': 'paper.png',
+        'logo-alt': 'supplies-small.png'
       },
       {
-        'title': 'Writing Tools',
-        'url': '/writing',
-        'description': 'What you need to write on it, staple it, glue it or highlight it.',
-        'logo': 'writing.png'
+        'title': 'Tech Stuff',
+        'url': '/tech-stuff',
+        'description': 'Ear buds, flashdrives & MacBook chargers.',
+        'logo': 'electronics.png',
+        'logo-alt': 'tech-stuff-small.png'
       },
       {
-        'title': 'Electronics',
-        'url': '/electronics',
-        'description': 'For the tech savvy student.',
-        'logo': 'electronics.png'
+        'title': 'Seasonal Fun',
+        'url': '/seasonal-fun',
+        'description': 'Seasonal fun stuff that changes up.',
+        'logo': 'fun.png',
+        'logo-alt': 'fun-stuff-small.png'
       },
       {
-        'title': 'Miscellaneous Supplies',
-        'url': '/misc',
-        'description': 'You\'ll never know what comes in handy.',
-        'logo': 'misc.png'
-      },
-      {
-        'title': 'Fun Stuff',
-        'url': '/fun',
-        'description': 'Sometimes you gotta have it..',
-        'logo': 'fun.png'
+        'title': 'Gotta Have',
+        'url': '/gotta-have',
+        'description': 'Everyday essentials & gum, of course.',
+        'logo': 'misc.png',
+        'logo-alt': 'gotta-have-small.png'
       }
     ];
   });

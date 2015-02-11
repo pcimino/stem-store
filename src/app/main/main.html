@@ -3,20 +3,22 @@
   <div ng-include="'components/navbar/navbar.html'"></div>
 
   <div class="jumbotron text-center">
-    <h1>Welcome to the STEM Store</h1>
-    <h3>Brought to you by the Home & School Assoc</h3>
+    <div class="welcome-text navy">Welcome to the</div>
+
     <p class="lead">
-      <img src="assets/images/stem-store-logo-small.png"><br>
+      <img src="assets/images/stem-store-logo-medium.png"><br>
     </p>
+    <div class="welcome-sub-text navy">Brought to you by the <b>Climate & Culture Committee</b></div>
   </div>
   <div id="outer" style="width:100%">
-    <div class="row row-center">
-      <div class="col-sm-2" ng-repeat="awesomeThing in awesomeThings">
+    <div class="row">
+      <div class="col-sm-3" ng-repeat="awesomeThing in awesomeThings">
           <a ng-href="#{{awesomeThing.url}}">
             <div class="thumbnail">
               <img class="pull-right" ng-src="assets/images/{{awesomeThing.logo}}" alt="{{awesomeThing.title}}">
               <div class="caption">
-                <h6>{{awesomeThing.description}}</h6>
+                <h4 class="navy">{{awesomeThing.title}}</h4>
+                <h6 class="navy">{{awesomeThing.description}}</h6>
               </div>
             </div>
           </a>

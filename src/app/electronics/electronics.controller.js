@@ -6,7 +6,8 @@ angular.module('stemStore')
     $scope.awesomeThings = [
 
 {image:'assets/images/electronics/WP_20150208_017.jpg'},
-{image:'assets/images/electronics/WP_20150208_041.jpg'}
+      {image:'assets/images/electronics/charger.jpg'},
+      {image:'assets/images/electronics/WP_20150208_041.jpg'}
     ];
 
   });
