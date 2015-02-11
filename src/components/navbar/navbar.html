@@ -21,14 +21,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <h2><a class="navbar-brand" href="#/">STEM Store</a></h2>
+        <h2><a class="navbar-brand" href="#/">STEM Store Home</a></h2>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li ng-repeat="linkItem in links">
             <a ng-class="{ active: isActive('{{linkItem.link}}') }" ng-href="#{{linkItem.link}}">
-              <img class="thumb" ng-src="assets/images/{{linkItem.image}}" alt="{{linkItem.description}}">
+              <img ng-src="assets/images/{{linkItem.image}}" alt="{{linkItem.description}}">
             </a>
           </li>
         </ul>

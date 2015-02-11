@@ -1,4 +1,4 @@
-# STEM Store Catalog
+# [STEM Store Catalog](http://stem-store.translunardesigns.com/)
 Quick and dirty slide show displaying items for sale. My wife is running a store at my son's high school and she was going to print out the photos of items with prices so whomever is sitting at the table can flip through to get the price instead of putting stickers on every single item.
 
 I hate the idea of wasting paper, but even worse is I would be footing the bill for all the color ink.
