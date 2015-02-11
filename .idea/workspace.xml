@@ -2,41 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc985d9b-72ce-444f-bcd5-7443c52b960a" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\development\code\angular\stem-store\src\app\writing\writing.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\development\code\angular\stem-store\src\app\writing\writing.controller.spec.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\development\code\angular\stem-store\src\app\writing\writing.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\development\code\angular\stem-store\src\assets\images\fun\WP_20150208_029.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\development\code\angular\stem-store\src\assets\images\fun\WP_20150208_031.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\development\code\angular\stem-store\src\assets\images\fun\WP_20150208_034.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\development\code\angular\stem-store\src\assets\images\fun\WP_20150208_035.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\development\code\angular\stem-store\src\assets\images\fun\WP_20150208_039.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\development\code\angular\stem-store\src\assets\images\fun\WP_20150208_040.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\development\code\angular\stem-store\src\assets\images\writing\WP_20150208_005.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\development\code\angular\stem-store\src\assets\images\writing\WP_20150208_009.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\development\code\angular\stem-store\src\assets\images\writing\WP_20150208_010.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\development\code\angular\stem-store\src\assets\images\writing\WP_20150208_011.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\development\code\angular\stem-store\src\assets\images\writing\WP_20150208_019.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\development\code\angular\stem-store\src\assets\images\writing\WP_20150208_020.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\development\code\angular\stem-store\src\assets\images\writing\WP_20150208_021.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\development\code\angular\stem-store\src\assets\images\writing\WP_20150208_022.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\development\code\angular\stem-store\src\assets\images\writing\WP_20150208_024.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\development\code\angular\stem-store\src\assets\images\writing\WP_20150208_025.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\development\code\angular\stem-store\src\assets\images\writing\WP_20150208_028.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\development\code\angular\stem-store\src\assets\images\writing\WP_20150208_032.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/images/misc/WP_20150208_031.jpg" afterPath="$PROJECT_DIR$/src/assets/images/misc/WP_20150208_031.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/favicon.ico" afterPath="$PROJECT_DIR$/src/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/electronics/electronics.controller.js" afterPath="$PROJECT_DIR$/src/app/electronics/electronics.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fun/fun.controller.js" afterPath="$PROJECT_DIR$/src/app/fun/fun.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/fun/fun.controller.spec.js" afterPath="$PROJECT_DIR$/src/app/fun/fun.controller.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/index.css" afterPath="$PROJECT_DIR$/src/app/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/index.js" afterPath="$PROJECT_DIR$/src/app/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/main/main.controller.js" afterPath="$PROJECT_DIR$/src/app/main/main.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/main/main.html" afterPath="$PROJECT_DIR$/src/app/main/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/misc/misc.controller.js" afterPath="$PROJECT_DIR$/src/app/misc/misc.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/navbar/navbar.controller.js" afterPath="$PROJECT_DIR$/src/components/navbar/navbar.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/navbar/navbar.html" afterPath="$PROJECT_DIR$/src/components/navbar/navbar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/paper/paper.controller.js" afterPath="$PROJECT_DIR$/src/app/paper/paper.controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="stem-store.iws" />
@@ -104,8 +69,8 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/main/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33689025" vertical-offset="0" max-vertical-offset="697">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.051829267" vertical-offset="0" max-vertical-offset="697">
+              <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -207,78 +172,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="stem-store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stem-store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stem-store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stem-store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stem-store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="navbar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stem-store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stem-store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stem-store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stem-store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -743,8 +636,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/main/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33689025" vertical-offset="0" max-vertical-offset="697">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.051829267" vertical-offset="0" max-vertical-offset="697">
+          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
           <folding />
         </state>
       </provider>
