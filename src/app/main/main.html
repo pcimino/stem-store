@@ -6,7 +6,9 @@
     <div class="welcome-text navy">Welcome to the</div>
 
     <p class="lead">
-      <img src="assets/images/stem-store-logo-medium.png"><br>
+      <img ng-src="{{logo}}.sm.png" ng-srcset="{{logo}}.md.png 1000w, {{logo}}.lg.png 2000w" style="margin:auto;">
+
+      <br>
     </p>
     <div class="welcome-sub-text navy">Brought to you by the <b>Climate & Culture Committee</b></div>
     <div class="email-text"><a href="mailto:DeirdreCimino@Gmail.com?subject=STEM%20Store%20Feedback"><b>Looking for a certain item? Please click here to provide valuable feedback.</b></a></div>
@@ -15,8 +17,8 @@
     <div class="row">
       <div class="col-sm-3 repeat-border" ng-repeat="awesomeThing in awesomeThings">
           <a ng-href="#{{awesomeThing.url}}">
-            <div>
-              <img class="pull-right" ng-src="assets/images/{{awesomeThing.logo}}" class="img-responsive" alt="{{awesomeThing.title}}">
+            <div >
+              <img class="pull-right" ng-src="{{awesomeThing.logo}}.sm.png" ng-srcset="{{awesomeThing.logo}}.md.png 1000w, {{awesomeThing.logo}}.lg.png 2000w" style="margin:auto;" alt="{{awesomeThing.title}}">
               <div class="caption">
                 <h4 class="navy">{{awesomeThing.title}}</h4>
                 <h6 class="navy">{{awesomeThing.description}}</h6>

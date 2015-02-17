@@ -5,7 +5,7 @@
   <div style="height: 305px">
     <carousel interval="myInterval">
       <slide ng-repeat="slide in awesomeThings" active="slide.active">
-        <img ng-src="{{slide.image}}" style="margin:auto;">
+        <img ng-src="{{slide.image}}.sm.jpg" ng-srcset="{{slide.image}}.md.jpg 1000w, {{slide.image}}.lg.jpg 2000w" style="margin:auto;">
       </slide>
     </carousel>
   </div>
