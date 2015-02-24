@@ -7,6 +7,7 @@ angular.module('stemStore')
 
 {image:'assets/images/electronics/WP_20150208_017'},
       {image:'assets/images/electronics/charger'},
+	  {image:'assets/images/electronics/skin'},
       {image:'assets/images/electronics/WP_20150208_041'}
     ];
 
