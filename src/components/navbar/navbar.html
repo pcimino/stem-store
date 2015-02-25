@@ -22,7 +22,7 @@
           </li>
           <li ng-repeat="linkItem in links">
             <a ng-class="{ active: isActive('{{linkItem.link}}') }" ng-href="#{{linkItem.link}}">
-              <img width="50px" height="12px" ng-src="assets/images/{{linkItem.image}}" alt="{{linkItem.description}}">
+              <img width="50px" height="12px" ng-src="{{linkItem.image}}" alt="{{linkItem.description}}">
             </a>
           </li>
           </ul>
@@ -34,7 +34,7 @@
         <ul class="nav navbar-nav">
           <li ng-repeat="linkItem in links">
             <a ng-class="{ active: isActive('{{linkItem.link}}') }" ng-href="#{{linkItem.link}}">
-              <img ng-src="assets/images/{{linkItem.image}}" alt="{{linkItem.description}}">
+              <img ng-src="{{linkItem.image}}" alt="{{linkItem.description}}">
             </a>
           </li>
         </ul>
