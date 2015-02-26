@@ -26,12 +26,12 @@ To change/update images for the catalog, it is simple if you follow these conven
 * Catalog images are JPEGs, and the extension is lowercase: ".jpg"  
 * All catalogs are put in subdirectories in the /assets/images/catalog directory  
 * Open a shell and go to the tools directory, then run the image script. These are shell files, so Windows Users will need to be in the git-bash or Cygwin bash command line.  
-	** cd tools  
-	** ./move-image-files.sh  
+	* cd tools  
+	* ./move-image-files.sh  
 * This will not touch existing files, only files that look like: MyImage.jpg  
-	** Renames MyImage.jpg to MyImage.sm.jpg  
-	** Copies MyImage.sm.jpg to MyImage.md.jpg and MyImage.lg.jpg  
-* Files should be resized to standard dimensions across the site. Smaller images are used for mobile devices:  
+	* Renames MyImage.jpg to MyImage.sm.jpg  
+	* Copies MyImage.sm.jpg to MyImage.md.jpg and MyImage.lg.jpg  
+* Files should be resized to standard dimensions across the site. Smaller images are used for mobile devices:   
     * .lg.jpg => 1000px wide  
     * .md.jpg => 500px wide  
 	* .sm.jpg => 320px wide  
