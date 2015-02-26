@@ -2,7 +2,7 @@
 
 angular.module('stemStore')
   .controller('ElectronicsCtrl', function ($scope) {
-    var dir = 'assets/images/electronics/';
+    var dir = 'assets/images/catalog/electronics/';
     $scope.myInterval = 3000;
     $scope.awesomeThings = [
 

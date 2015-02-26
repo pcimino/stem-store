@@ -1,0 +1,10 @@
+[
+{'catalog':'test1', 'images':[
+'test'
+]}
+{'catalog':'test2', 'images':[
+'img',
+'test',
+'test3'
+]}
+]

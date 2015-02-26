@@ -2,7 +2,7 @@
 
 angular.module('stemStore')
   .controller('MiscCtrl', function ($scope) {
-    var dir = 'assets/images/misc/';
+    var dir = 'assets/images/catalog/misc/';
     $scope.myInterval = 3000;
      $scope.awesomeThings = [
         {image:dir + 'WP_20150208_013'},
