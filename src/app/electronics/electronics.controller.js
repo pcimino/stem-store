@@ -1,15 +1,18 @@
 'use strict';
 
 angular.module('stemStore')
-  .controller('ElectronicsCtrl', function ($scope) {
-    var dir = 'assets/images/catalog/electronics/';
+  .controller('ElectronicsCtrl', function ($scope, CatalogService) {
+    var catName = 'electronics';
+    var dir = 'assets/images/catalog/' + catName + '/';
     $scope.myInterval = 3000;
-    $scope.awesomeThings = [
-
-    {image:dir + 'WP_20150208_017'},
-    {image:dir + 'charger'},
-	  {image:dir + 'skin'},
-    {image:dir + 'WP_20150208_041'}
-    ];
-
+    $scope.awesomeThings = [];
+    // Load catalog list
+    // input arg matches the catalog name in the JSON file
+    CatalogService.getList(catName).then(function(result) {
+      if (result.length === 1) {
+        for (var i in result[0].images) {
+          $scope.awesomeThings.push({image: dir + result[0].images[i]});
+        }
+      }
+    });
   });

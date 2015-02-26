@@ -2,21 +2,22 @@
 
 describe('controllers', function(){
   var scope;
-
+  var catalogService = {getList:function() {return {then:function(){return true;}};}};
   beforeEach(module('stemStore'));
 
-  beforeEach(inject(function($rootScope) {
+  beforeEach(inject(function($rootScope, $injector) {
     scope = $rootScope.$new();
   }));
 
-  it('should define more than 3 awesome things', inject(function($controller) {
+  it('should define awesome things', inject(function($controller) {
     expect(scope.awesomeThings).toBeUndefined();
 
     $controller('ElectronicsCtrl', {
-      $scope: scope
+      $scope: scope,
+      CatalogService: catalogService
     });
 
     expect(angular.isArray(scope.awesomeThings)).toBeTruthy();
-    expect(scope.awesomeThings.length > 3).toBeTruthy();
+
   }));
 });
