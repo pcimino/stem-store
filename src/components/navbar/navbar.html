@@ -20,7 +20,7 @@
           <li>
             <a class="" href="#/">STEM Store Home</a>
           </li>
-          <li ng-repeat="linkItem in links">
+          <li ng-repeat="linkItem in ::links">
             <a ng-class="{ active: isActive('{{linkItem.link}}') }" ng-href="#{{linkItem.link}}">
               <img width="50px" height="12px" ng-src="{{linkItem.image}}" alt="{{linkItem.description}}">
             </a>
@@ -32,7 +32,7 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <h2><a class="navbar-brand" href="#/">STEM Store Home</a></h2>
         <ul class="nav navbar-nav">
-          <li ng-repeat="linkItem in links">
+          <li ng-repeat="linkItem in ::links">
             <a ng-class="{ active: isActive('{{linkItem.link}}') }" ng-href="#{{linkItem.link}}">
               <img ng-src="{{linkItem.image}}" alt="{{linkItem.description}}">
             </a>
